@@ -1,0 +1,15 @@
+{
+    "name": "DisplayIface",
+    "version": "1.0.0",
+    "description": "屏幕显示统一接口 (IDisplay 纯虚基类 + 共用类型定义, 纯头文件组件). 所有屏幕驱动 (OledU8g2 单色屏 / TftTfspi 彩色屏...) 都继承 IDisplay, 保证跨组件接口一致.",
+    "frameworks": ["arduino", "espressif32"],
+    "platforms": ["espressif32"],
+    "keywords": ["display", "oled", "tft", "eink", "interface", "abstraction"],
+    "author": "xiaozhi",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/your-name/DisplayIface.git"
+    },
+    "headers": ["display_iface.h", "oled_types.h"]
+}

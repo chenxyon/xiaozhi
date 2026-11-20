@@ -1,0 +1,8 @@
+{
+    "name": "W25FlashDisk",
+    "version": "1.0.0",
+    "description": "W25Q128 SPI NOR Flash 组件 — 双模式合一: STANDALONE (固件独占, FATFS 直接读写) + USB_MSC (枚举为 U 盘, 电脑可读写, 固件通过 acquire/release 窗口访问). 内部包含 W25Q128 块级驱动 + W25FlashDisk USB MSC 双主仲裁层.",
+    "keywords": ["w25q128", "spi", "flash", "usb", "msc", "fatfs", "sdcard", "storage"],
+    "frameworks": ["arduino"],
+    "platforms": ["espressif32"]
+}

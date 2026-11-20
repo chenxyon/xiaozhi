@@ -1,0 +1,12 @@
+{
+    "name": "Inmp441Mic",
+    "version": "1.0.0",
+    "description": "INMP441 I2S 数字 MEMS 麦克风 — Arduino+ESP-IDF 双框架通用组件",
+    "keywords": "audio,mic,i2s,inmp441",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/YOUR_ORG/Inmp441Mic.git"
+    },
+    "frameworks": ["arduino", "espressif32"],
+    "platforms": ["espressif32"]
+}

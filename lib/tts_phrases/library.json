@@ -1,0 +1,16 @@
+{
+    "name": "tts_phrases",
+    "version": "1.0.0",
+    "description": "离线 TTS 固定话术 PCM 片段（gen_tts_clips.py 自动生成，16k s16le）。枚举头 + 数据数组，纯资源库。全部生成产物在 cache/ 子目录。",
+    "keywords": ["tts", "phrases", "pcm", "offline"],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/your-name/esp32-tts-phrases.git"
+    },
+    "frameworks": ["arduino", "espressif32"],
+    "platforms": ["espressif32"],
+    "dependencies": {},
+    "build": {
+        "srcDir": "cache"
+    }
+}

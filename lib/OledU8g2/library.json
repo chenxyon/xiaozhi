@@ -1,0 +1,11 @@
+{
+    "name": "OledU8g2",
+    "version": "1.0.0",
+    "description": "基于 U8g2 的多面板显示组件 (OLED / 墨水屏 / 单色 TFT). 继承 DisplayIface 的 IDisplay 统一接口, 支持 SSD1306/SH1106/SH1107(I²C)、UC1701/SSD1606/SSD1607 墨水屏(SPI)、SSD1322 单色 LCD(SPI). 彩色 TFT (ST7789/ILI9341/ILI9488) 请用 TftTfspi 组件.",
+    "keywords": ["oled", "eink", "u8g2", "display", "ssd1306", "sh1106", "uc1701", "ssd1606", "ssd1607", "ssd1322"],
+    "frameworks": ["arduino", "espressif32"],
+    "platforms": ["espressif32"],
+    "dependencies": {
+        "olikraus/U8g2": "^2.35.0"
+    }
+}

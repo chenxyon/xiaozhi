@@ -1,0 +1,12 @@
+{
+    "name": "Max98357Amp",
+    "version": "1.0.0",
+    "description": "MAX98357A I2S Class-D 功放 — Arduino+ESP-IDF 双框架通用组件",
+    "keywords": "audio,amp,i2s,max98357",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/YOUR_ORG/Max98357Amp.git"
+    },
+    "frameworks": ["arduino", "espressif32"],
+    "platforms": ["espressif32"]
+}

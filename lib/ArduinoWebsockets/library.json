@@ -1,0 +1,24 @@
+{
+  "name": "ArduinoWebsockets",
+  "keywords": "websocket, websockets, async, socket",
+  "description": "轻量级 WebSocket 客户端/服务端（gilmaimon/ArduinoWebsockets 0.5.4，已补 ESP32 setInsecure 修复）",
+  "version": "0.5.4-fixed",
+  "author": "gilmaimon (原作者), 修复：ESP32 setInsecure",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gilmaimon/ArduinoWebsockets"
+  },
+  "frameworks": "arduino",
+  "platforms": ["espressif32", "espressif8266"],
+  "dependencies": [
+    { "name": "WiFi", "platforms": ["espressif32", "espressif8266"] },
+    { "name": "WiFiClientSecure", "platforms": ["espressif32", "espressif8266"] },
+    { "name": "Network", "platforms": ["espressif32"] }
+  ],
+  "export": {
+    "include": ["src"]
+  },
+  "build": {
+    "libArchive": false
+  }
+}
