@@ -33,3 +33,8 @@ test_*.log
 .DS_Store
 Thumbs.db
 tools/__pycache__/
+
+# Local secrets —— 永远不要提交 token/password/API key
+.env.local
+.env.*.local
+*.local.env
